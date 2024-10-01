@@ -76,6 +76,9 @@
     .six {
       grid-column: 2;
       grid-row: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       background-color: hsl(0, 0%, 100%)
     }
 
