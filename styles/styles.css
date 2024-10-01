@@ -78,7 +78,6 @@
       grid-row: 3;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       background-color: hsl(0, 0%, 100%)
     }
 
@@ -140,6 +139,7 @@
 
     .audience {
       max-width: 85%;
+      flex-grow: 1;
     }
 
     .followers {
